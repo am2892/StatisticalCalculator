@@ -11,8 +11,8 @@ class Calculator:
         return num1 / num2
     def square(self, num1, num2):
         return num1 ** 2
-    def squareroot(self, num1, num2):
-        return math.sqrt(num1)
+#    def squareroot(self, num1, num2):
+#        return math.sqrt(num1)
 #    def mean(self, num1, num2):
 #        return statistics.mean(num1, num2)
 if __name__ == "__main__":
@@ -22,5 +22,5 @@ if __name__ == "__main__":
     print (c.multiply(1,2))
     print (c.divide(1,2))
     print (c.square(1,2))
-    print (c.squareroot(1,2))
+#    print (c.squareroot(1,2))
 #    print (c.mean(1,2))
