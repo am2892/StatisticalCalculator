@@ -6,4 +6,4 @@ def test_calc_add():
 def test_calc_add_fail():
     from Calculator import Calculator
     c = Calculator()
-    assert c.add(3,5) != 9
+    assert c.add(3,5) != 6
