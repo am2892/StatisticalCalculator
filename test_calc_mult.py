@@ -6,4 +6,4 @@ def test_calc_multiply():
 def test_calc_multiply_fail():
     from Calculator import Calculator
     c = Calculator()
-    assert c.multiply(3,5) != 12
+    assert c.multiply(3,5) != 11
